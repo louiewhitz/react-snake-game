@@ -73,7 +73,7 @@ function App() {
     //if snake array last element touches the box boundary then game over
     if (
       snake[snake.length - 1].x === 100 ||
-      snake[snake.length - 1].x === 0 ||
+      snake[snake.length - 1].x === -4 ||
       snake[snake.length - 1].y === 100 ||
       snake[snake.length - 1].y === -4
     ) {
